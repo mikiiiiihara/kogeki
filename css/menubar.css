@@ -1,0 +1,37 @@
+@charset "utf-8";
+ul.dmenu{
+    background-color: rgb(212, 225, 87);
+    text-align: center;
+    position: relative;
+}
+ul.dmenu li{
+    width: 15vw;
+    display: inline-block;
+    list-style: none;
+    text-align: center;
+    font-size: 1.8vw;
+    padding-bottom: 2vh;
+    margin: 0 1vw;
+    position: relative;
+    top: -1.5vh;
+}
+.logo1{
+   position: relative;
+   top: 2.5vh;
+   width: 15vw;
+}
+#bam{
+    position: relative;
+    top: 1px;
+}
+ul.dmenu a{
+    background-color: rgb(212, 225, 87);
+    color: rgb(78,52,46);
+    line-height: 24px;
+    text-decoration: none;
+    display: block;
+}
+ul.dmenu a:hover{
+    background-color:white;
+    color: rgb(78,52,46);
+}

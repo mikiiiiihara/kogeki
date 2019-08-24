@@ -1,0 +1,714 @@
+@charset "utf-8";
+html{
+    -webkit-text-size-adjust: 100%;
+}
+img{
+    border:0;
+    max-width: 100%;
+    height: auto;
+}
+
+/* ここから本文 */
+.top-wrapper{
+    position: relative;
+}
+/* スライドショー */
+#aspslide{
+    position: relative;      
+    width: 100%;
+    height: 56vw;
+    overflow:hidden;
+    padding:0!important;
+}
+
+.asnakami{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding:0!important;
+}   
+
+
+#asnakami1{
+    -moz-animation: fadeinout 20s 0s infinite;
+    -webkit-animation: fadeinout 20s 0s infinite;
+    -o-animation: fadeinout 20s 0s infinite;
+    animation: fadeinout 20s 0s infinite;
+}
+
+#asnakami2{
+    -moz-animation: fadeinout 20s 5s infinite;
+    -webkit-animation: fadeinout 20s 5s infinite;
+    -o-animation: fadeinout 20s 5s infinite;
+    animation: fadeinout 20s 5s infinite;
+}
+
+#asnakami3{
+    -moz-animation: fadeinout 20s 10s infinite;
+    -webkit-animation: fadeinout 20s 10s infinite;
+    -o-animation: fadeinout 20s 10s infinite;
+    animation: fadeinout 20s 10s infinite;
+}
+
+#asnakami4{
+    -moz-animation: fadeinout 20s 15s infinite;
+    -webkit-animation: fadeinout 20s 15s infinite;
+    -o-animation: fadeinout 20s 15s infinite;
+    animation: fadeinout 20s 15s infinite;
+}
+
+@-moz-keyframes fadeinout {
+0% { left:0%; opacity:0;}
+5% { left:0%;opacity:1; }
+20% { left:0%; opacity:1;}
+25% { left:0%;opacity:0; }
+26% { opacity:0;left:100%; }
+99.99% { opacity:0;left:100%; }
+100% { opacity:0;left:0%; }
+}
+
+@-webkit-keyframes fadeinout {
+0% { left:0%; opacity:0;}
+5% { left:0%;opacity:1; }
+20% { left:0%; opacity:1;}
+25% { left:0%;opacity:0; }
+26% { opacity:0;left:100%; }
+99.99% { opacity:0;left:100%; }
+100% { opacity:0;left:0%; }
+}
+
+@-o-keyframes fadeinout {
+0% { left:0%; opacity:0;}
+5% { left:0%;opacity:1; }
+20% { left:0%; opacity:1;}
+25% { left:0%;opacity:0; }
+26% { opacity:0;left:100%; }
+99.99% { opacity:0;left:100%; }
+100% { opacity:0;left:0%; }
+}
+
+@keyframes fadeinout {
+0% { left:0%; opacity:0;}
+5% { left:0%;opacity:1; }
+20% { left:0%; opacity:1;}
+25% { left:0%;opacity:0; }
+26% { opacity:0;left:100%; }
+99.99% { opacity:0;left:100%; }
+100% { opacity:0;left:0%; }
+}
+.sldphoto{
+    width: 100vw;
+}
+#top_title{
+    position: absolute;
+    top: 40%;
+    right: 0;
+    left: 0;
+    margin: auto;
+    width: 50%;
+}
+#reqform{
+    position: absolute;
+    bottom: 18%;
+    right: 3vw;
+    width: 15vw;
+    height: 15vw;
+    border-radius: 7.5vw;
+    background-color: rgb(255,152,0);
+    z-index: 111;
+    text-align: center;
+    box-shadow: 3px 3px 4px grey;
+}
+#sched{
+    margin-top: 15%;
+    width: 35%;
+}
+.font{
+    font-size: 1.8vw;
+    color: rgb(247,247,247);
+    margin-top: 6%;
+}
+.border1{
+    position: relative;
+    z-index: 10;
+    width: 0;
+	border-right: 100vw solid white;
+	border-top: 10vw solid transparent;
+    margin-top: -16%;
+}
+.contents1{
+    position: relative;
+    z-index: 11;
+    width: 100%;
+    height:70vh;
+    background-color: white;
+}
+.title{
+    width: 7vw;  
+}
+.titleborder{
+    text-align: center;
+    width: 28%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 3%;
+    padding-bottom: 1.2%;
+    border-bottom: solid 1px rgb(255,202,40);
+}
+.c1s{
+    text-align: center;
+    color:rgb(78,52,46);
+    font-size: 1vw;
+    margin-top: -2%;
+    line-height: 4.5vh;
+}
+.jptit{
+    font-size: 1.8vw;
+    line-height: 8vw;
+}
+.mot1_1{
+    position: absolute;
+    z-index: 10;
+    width: 12%;
+    top: 8%;
+    left: 10vw;
+    margin: auto;
+}
+.mot1_2{
+    position: absolute;
+    z-index: 10;
+    width: 12%;
+    bottom: 30%;
+    right: 9vw;
+    margin: auto;
+}
+.border1_2{
+    position: relative;
+    z-index: 10;
+    width: 0;
+	border-right: 100vw solid white;
+	border-bottom: 10vw solid transparent;
+}
+.contents2{
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    height: 130vh;
+    margin-top: -12%;
+    background-color: rgb(205,220,57);
+}
+.tbabs{
+    padding-top: 13%;
+    border-bottom: solid 1px rgb(78,52,46);
+    width: 32%;
+
+}
+.abs{
+    width:14vw;
+}
+.abscop{
+    font-size: 2vw;
+    line-height: 15vw;
+}
+.abss{
+    font-size: 1.4vw;
+}
+/* contents2モチーフ */
+.mot2{
+    width: 13%;
+    position: absolute;
+    top: 8vw;
+    right: 10vw;
+    z-index: 112;
+}
+.mot3_1{
+    width: 6%;
+    position: absolute;
+    top: 25vw;
+    left: 20vw;
+    margin: auto;
+}
+.mot3_2{
+    width: 6%;
+    position: absolute;
+    bottom: 10vw;
+    right: 22vw;
+    margin: auto;
+}
+/* contents3 */
+.border1_3{
+    position: relative;
+    z-index: 10;
+    width: 0;
+	border-right: 100vw solid white;
+	border-top: 10vw solid transparent;
+    margin-top: -10%;
+}
+.contents3{
+    height: 175vh;
+    width: 100%;
+    position: relative;
+    z-index: 111;
+}
+#m41{
+    width: 22vw;
+    position: absolute;
+    top: -3.8vw;
+    left: 5vw;
+    z-index: 1;
+}
+#m42{
+    width: 22vw;
+    position: absolute;
+    top: -10.6vw;
+    right: 3vw;
+    z-index: 1;
+}
+.tact{
+    padding-top: 10%;
+    border-bottom: solid 1px rgb(205,220,57);
+
+}
+.act{
+    width: 10vw;
+}
+.acts{
+    text-align: center;
+    color: rgb(78,52,46);
+}
+.actmenu{
+    position: relative;
+    /* background-color: red;  可視化 いずれ消す */
+    width: 70vw;
+    height: 760px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.inactmenu{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+    /* background-color: pink;可視化　いずれ消す */
+    width: 65vw;
+    height: 740px;
+}
+.act-content{
+    position: relative;
+    float: left;
+    width: 19vw;
+    height: 720px;
+    /* background-color: white;可視化　いずれ消す */
+    margin: 1vw 1.1vw 0 1.4vw;
+}
+.icon1{
+    width: 87%;
+   position: absolute;
+   top: 3vw;
+   right: 0;
+   left: 0;
+   margin: auto;
+}
+.ora{
+    background-color: rgb(255,202,40);
+}
+.gre{
+    background-color: rgb(205,220,57);
+}
+.icon2{
+    width: 14vw;
+    height: 14vw;
+    position: absolute;
+    right: 0;
+    left: 0;
+    margin: auto;
+    top: 25vw;
+    border-radius: 7vw;
+    text-align: center;
+}
+.icpic{
+    width: 7.5vw;
+    margin-top: 20%;
+    }
+.qa{
+    width: 6.5vw;
+    }
+.sch1{
+    width: 5vw;
+    }
+.bab{
+    width: 6.5vw;
+}
+.mail{
+    width: 6vw;
+    }
+    
+.icon3{
+    width: 14vw;
+    height: 14vw;
+    position: absolute;
+    right: 0;
+    left: 0;
+    margin: auto;
+    top: 43vw;
+    border-radius: 7vw;
+    text-align: center;
+}
+.actext{
+    color: rgb(78,52,46);
+    font-size: 1.4vw;
+    margin-top: 0.75vw;
+}
+.rec{
+    width: 87.5%;
+    height: 3.8vw;
+    background-color: rgb(225,202,40);
+    position: absolute;
+    top: 13.75vw;
+    opacity: 0.8;
+    right: 0;
+    left: 0;
+    margin: auto;
+    z-index: 10;
+    text-align: center;
+}
+.retext{
+    color: rgb(78,52,46);
+    font-size: 1.4vw;
+}
+.textrec{
+    width: 87.5%;
+    position: absolute;
+    top: 14.4vw;
+    right: 0;
+    left: 0;
+    margin: auto;
+    z-index: 11;
+    text-align: center;
+}
+.border1_4{
+    position: relative;
+    z-index: 10;
+    width: 0;
+	border-left: 100vw solid rgb(255,202,40);
+	border-top: 6vw solid transparent;
+    margin-top:;
+}
+.content4{
+    position: relative;
+    width: 100%;
+    height: 165vh;
+    background-color: rgb(255,202,40);
+}
+.border1_5{
+    position: relative;
+    z-index: 10;
+    width: 0;
+	border-right: 100vw solid rgb(255,202,40);
+	border-bottom: 6vw solid transparent;
+}
+.tbam{
+    padding-top: 9%;
+    border-bottom: solid 1px rgb(78,52,46);
+    width: 34%;
+}
+.bam1{
+    width: 30vw;
+    padding-top: 0;
+}
+.bammenu{
+    position: relative;
+    width: 70vw;
+    height: 760px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2vw;
+}
+.inbam{
+    width: 65vw;
+    height: 360px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom:2vw; 
+}
+.inb2{
+    width: 43vw;
+}
+.bam-content{
+    position: relative;
+    width: 18vw;
+    height: 340px;
+    float: left;
+    margin: 1vw 1.4vw 0 1.8vw;
+}
+.theme{
+    width: 13vw;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+}
+.bamaru{
+    width: 12vw;
+    height: 12vw;
+    position: absolute;
+    right: 0;
+    left: 0;
+    margin: auto;
+    top: 2.5vw;
+    border-radius: 6vw;
+    text-align: center;
+    background-color: rgb(225,152,0);
+}
+.bicon{
+    width: 55%;
+    margin-top: 25%;
+}
+.bbtext{
+    font-size: 1vw;
+    color: rgb(78,52,46);
+}
+.bbc{
+    width: 18vw;
+    position: absolute;
+    top: 15vw;
+    right: 0;
+    left: 0;
+    text-align: center;
+}
+.mot101{
+    width: 12vw;
+    position: absolute;
+    top: 6.5vw;
+    left: 5vw;
+}
+.mot102{
+    width: 18vw;
+    position: absolute;
+    bottom: 32vw;
+    right:0;
+}
+.mot111{
+    width: 8vw;
+    position: absolute;
+    top: 28vw;
+    left: 2vw;
+}
+.mot112{
+    width: 12vw;
+    position: absolute;
+    right: 2.5vw;
+    bottom: 17vw;
+    margin: auto;
+}
+.botton1{
+    width: 10vw;
+    height: 10vw;
+    border-radius: 5vw;
+    position: absolute;
+    bottom: 4vw;
+    right: 16vw;
+    margin: auto;
+    border: solid 1px rgb(78,52,46);
+    text-align: center;
+}
+.botton2{
+    width: 10vw;
+    height: 10vw;
+    border-radius: 5vw;
+    background-color: rgb(78,52,46);
+    position: absolute;
+    bottom: 4vw;
+    right: 4vw;
+    margin: auto;
+    text-align: center;
+}
+.btgrp{
+    width: 10vw;
+    margin-top: 30%;
+}
+.bttext{
+    font-size: 1.3vw;
+}
+.btt{
+    color: rgb(78,52,46);  
+}
+.bwh{
+    color: white;
+}
+.content5{
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+.com1{
+    margin-top: -5%;
+}
+.com{
+    width: 14vw;
+}
+.comenu{
+    width: 60vw;
+    height: 55vh;
+    margin-left: auto;
+    margin-right: auto;
+}
+.otaka{
+    width: 30vw;
+    float: left;
+    margin-top: 10%;
+}
+.otext{
+    width: 48%;
+    height: 40vh;
+    float: left;
+    margin-top: 10%;
+    text-align: left;
+}
+.otth{
+    font-size: 2.2vw;
+    color: rgb(78,52,46);  
+}
+.oborder{
+    width: 100%;
+    height: 4.5vw;
+    border-bottom:double 1.4px rgb(78,52,46);
+}
+.oborder1{
+    width: 100%;
+    height: 5vw;
+    border-bottom:double 1.4px rgb(78,52,46);
+}
+.ottext1{
+    width: 100%;
+    height: 26vh;
+    margin-top: 4%;
+}
+.ottext2{
+    font-size: 1.1vw;
+    color: rgb(78,52,46);
+}
+.mot7{
+    width: 22vw;
+    position: absolute;
+    top: -3vw;
+    left: 10vw;
+}
+.mot8{
+    width: 20vw;
+    position: absolute;
+    top: 0;
+    right: 3vw;
+}
+.ggmap {
+    position: relative;
+    padding-bottom: 35%;
+    padding-top: 30px;
+    height: 0;
+    overflow: hidden;
+    }
+     
+    .ggmap iframe,
+    .ggmap object,
+    .ggmap embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    }
+    .mapdet{
+        position: absolute;
+        bottom:6vh;
+        left: 7vw;
+        width: 40vw;
+        height: 11vh;
+        background-color: rgb(255,202,40);
+        padding: 0.4%;
+        color: rgb(78,52,46);
+        font-size: 1.2vw;
+    }
+.content6{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+}
+.htmenu{
+    width: 65vw;
+    height: 40vh;
+   position: absolute;
+   top: 20vh;
+   left: 0;
+   right: 0;
+   margin: auto;
+}
+.ht-content{
+    width: 20vw;
+    height: 40vh;
+    float: left;
+    margin: 0 0.5vw;
+    position: relative;
+}
+.hooter-text1{
+    color: rgb(78,52,46);
+    font-size: 1.8vw;
+}
+.hooter-text2 li{
+    color: rgb(78,52,46);
+    font-size: 1.2vw;
+    list-style: none;
+}
+.hooter-text2 li a{
+    color: rgb(78,52,46);
+    font-size: 1.2vw;
+    text-decoration: none;
+}
+.htt2{
+    position: absolute;
+    bottom: 0;
+}
+#llli2{
+    margin-top: 4vh;
+    line-height: 4vh;
+}
+#llli2 li{
+    font-size: 2vw;
+}
+/* モチーフ */
+.mot121{
+    width: 13vw;
+    position: absolute;
+    top: 5vh;
+    left: 2vw;
+    z-index: 111;
+}
+.mot122{
+    width: 9vw;
+    position: absolute;
+    bottom:35vh;
+    right: 5vw;
+}
+.mot131{
+    width: 11vw;
+    position: absolute;
+    top: 5vh;
+    right: 4vw;
+    margin: auto;
+}
+.mot132{
+    width: 11vw;
+    position: absolute;
+    bottom:15vh;
+    left: 7vw;
+}
+.picchild{
+    width: 30vw;
+    position: absolute;
+    bottom:20vh;
+    right: 17vw;
+}

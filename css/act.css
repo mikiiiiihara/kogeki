@@ -1,0 +1,77 @@
+@charset "utf-8";
+.hpic{
+    position:relative;
+}
+.pic1{
+    width: 100%;
+}
+.title1{
+    position: absolute;
+    top: 28%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 50vw;
+}
+.font1{
+    color: white;
+    width: 6vw;
+    font-size: 3vw;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+.mot1{
+    position: absolute;
+    top: 0;
+    right: 5vw;
+    width: 12vw;
+}
+.content{
+position: relative;
+}
+.border1{
+    width: 0;
+	border-right: 100vw solid rgb(212,225,87);
+    border-top: 8.5vw solid transparent;
+    position: absolute;
+    top: -7vw;
+}
+.border2{
+    width: 0;
+	border-right: 100vw solid rgb(255,202,40);
+    border-top: 4vw solid transparent;
+    position: absolute;
+    top: -2.3vw;
+}
+.border3{
+    width: 0;
+	border-left: 100vw solid white;
+    border-top: 6vw solid transparent;
+    position: absolute;
+    top: -4.3vw;
+}
+.main-container{
+    position: relative;
+    height: 90vh;
+}
+.mot2{
+    position: absolute;
+    top: 0;
+    left: 3vw;
+    width: 12vw;
+}
+.star1{
+    width: 10vw;
+    position: absolute;
+    top: 3vw;
+    left: 11vw;
+}
+.star2{
+    width: 7vw;
+    position: absolute;
+    top: 16vw;
+    right: 8vw;
+}
